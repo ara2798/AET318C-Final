@@ -45,7 +45,22 @@ ModelImporter:
   - first:
       74: 5819538111367799518
     second: RobotArmature|Robot_Yes
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 6dc41e2f76c9ba34f8d85f1c453204ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grey
+    second: {fileID: 2100000, guid: ddbed617cbac7694baa83fc749afb019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: 1da17d5cd63c2934f9c9f19d76951d36, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
