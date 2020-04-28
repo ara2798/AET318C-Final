@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         health = Mathf.Clamp(health + amount, 0, maxHealth);
         if (health <= 0)
         {
-            Debug.Log("Killed player at" + transform.position);
+            // Debug.Log("Killed player at" + transform.position);
             Destroy(gameObject);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
