@@ -38,8 +38,6 @@ public class Car : Receiver
                 }
             }
             Quaternion targetRot = Quaternion.LookRotation(delta);
-            Debug.Log("Transform is "+transform.rotation);
-            Debug.Log("Target is" + targetRot);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, Time.deltaTime * 5);
             //transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * speed);
             transform.position = transform.position + Vector3.Normalize(delta) * speed * Time.deltaTime;
